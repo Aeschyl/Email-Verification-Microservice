@@ -36,11 +36,9 @@ Returns a JSON formatted as such:
 - validDomain checks hostname lookup and uses socket to establish a connection with the domain. Returns true if these two tests are a success.
 - disposable checks a comprehensive list of disposable email domain names to determine whether the domain is used for disposable email addresses.
 - validSyntax implements a basic regex check to ensure the email is formatted correctly.
-
 &nbsp;
 
 &nbsp;
-
 ## Running locally
 To run the server on your local machine:
 ```sh
