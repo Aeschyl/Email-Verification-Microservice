@@ -4,6 +4,8 @@ This is a straightforward microservice that returns three markers which can be u
 
 &nbsp;
 
+&nbsp;
+
 ## Using the service
 #### The base URL for accessing the email verification service is:
 ```sh
