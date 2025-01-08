@@ -1,7 +1,6 @@
 # Email Verification Microservice  
 
 This is a straightforward microservice that returns three markers which can be used to determine whether an email is valid. Extremely useful for the sign up stage of any application.
-
 &nbsp;
 
 &nbsp;
