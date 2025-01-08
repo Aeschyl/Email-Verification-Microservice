@@ -11,7 +11,7 @@ This is a straightforward microservice that returns three markers which can be u
 https://email-verification-microservice.onrender.com/api/email/verify
 ```
 
-(This is render free tier so it can take >50s if the instance is inactive!, however response should be blazing fast afterwards)
+This is hosted on render free tier so it can take >50s if the instance is inactive!, however response should be <1s (blazing fast!) afterwards
 
 #### Send a POST request to the server using cURL or Postman:
 ```sh
