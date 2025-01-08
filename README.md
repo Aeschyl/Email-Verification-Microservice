@@ -12,7 +12,9 @@ https://email-verification-microservice.onrender.com/api/email/verify
 ```
 
 Send a POST request to the server using cURL or Postman:
+```sh
 curl -X POST https://email-verification-microservice.onrender.com -H "Content-Type: application/json" -d "{\"email\": \"test@example.com\"}"
+```
 
 It is by defualt configured to run on port 8080 when [running locally](#running-locally).
 
