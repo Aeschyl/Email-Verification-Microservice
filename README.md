@@ -44,3 +44,10 @@ To run the server on your local machine:
 ```sh
 mvn spring-boot:run
 ```
+
+or to get a jar build to deploy:
+
+```sh
+mvn clean package
+```
+and a jar file will be created in the target folder
