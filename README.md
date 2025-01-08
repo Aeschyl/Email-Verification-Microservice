@@ -2,6 +2,8 @@
 
 This is a straightforward microservice that returns three markers which can be used to determine whether an email is valid. Extremely useful for the sign up stage of any application.
 
+&nbsp;
+
 ## Using the service
 #### The base URL for accessing the email verification service is:
 ```sh
@@ -17,9 +19,9 @@ curl -X POST https://email-verification-microservice.onrender.com -H "Content-Ty
 
 It is by defualt configured to run on port 8080 when [running locally](#running-locally).
 &nbsp;
+
 &nbsp;
-&nbsp;
-&nbsp;
+
 ## Understanding the response
 Returns a JSON formatted as such:
 ```sh
@@ -35,8 +37,9 @@ Returns a JSON formatted as such:
 - disposable checks a comprehensive list of disposable email domain names to determine whether the domain is used for disposable email addresses.
 - validSyntax implements a basic regex check to ensure the email is formatted correctly.
 
+&nbsp;
 
-
+&nbsp;
 
 ## Running locally
 To run the server on your local machine:
