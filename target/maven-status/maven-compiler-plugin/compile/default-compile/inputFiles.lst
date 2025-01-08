@@ -1,0 +1,6 @@
+/home/user/Email-Verification-MicroService/src/main/java/emailverification/beans/EmailVerificationRequest.java
+/home/user/Email-Verification-MicroService/src/main/java/emailverification/Application.java
+/home/user/Email-Verification-MicroService/src/main/java/emailverification/service/EmailVerifier.java
+/home/user/Email-Verification-MicroService/src/main/java/emailverification/beans/EmailVerificationResponse.java
+/home/user/Email-Verification-MicroService/src/main/java/emailverification/controller/EmailVerificationController.java
+/home/user/Email-Verification-MicroService/src/main/java/emailverification/service/DisposableEmailChecker.java

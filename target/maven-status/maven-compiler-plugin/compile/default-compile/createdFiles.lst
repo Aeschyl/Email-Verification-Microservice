@@ -1,0 +1,6 @@
+emailverification/service/DisposableEmailChecker.class
+emailverification/service/EmailVerifier.class
+emailverification/beans/EmailVerificationRequest.class
+emailverification/controller/EmailVerificationController.class
+emailverification/Application.class
+emailverification/beans/EmailVerificationResponse.class
