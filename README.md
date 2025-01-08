@@ -11,6 +11,8 @@ The base URL for accessing the email verification service is:
 https://email-verification-microservice.onrender.com/api/email/verify
 ```
 
+(This is render free tier so it can take >50s if the instance is inactive!, however response should be blazing fast afterwards)
+
 Send a POST request to the server using cURL or Postman:
 ```sh
 curl -X POST https://email-verification-microservice.onrender.com -H "Content-Type: application/json" -d "{\"email\": \"test@example.com\"}"
