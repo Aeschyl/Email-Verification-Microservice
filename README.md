@@ -22,7 +22,6 @@ It is by defualt configured to run on port 8080 when [running locally](#running-
 &nbsp;
 
 &nbsp;
-
 ## Understanding the response
 Returns a JSON formatted as such:
 ```sh
