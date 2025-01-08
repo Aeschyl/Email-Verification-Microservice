@@ -11,17 +11,10 @@ The base URL for accessing the email verification service is:
 https://email-verification-microservice.onrender.com/api/email/verify
 ```
 
-OR
-
-```sh
-http://localhost:8080/api/email/verify
-```
-
 Send a POST request to the server using cURL or Postman:
-curl -X POST http://localhost:8080/api/email/verify -H "Content-Type: application/json" -d "{\"email\": \"test@example.com\"}"
+curl -X POST https://email-verification-microservice.onrender.com -H "Content-Type: application/json" -d "{\"email\": \"test@example.com\"}"
 
-
-
+It is by defualt configured to run on port 8080 when running locally.
 
 ## Understanding the response
 Returns a JSON formatted as such:
