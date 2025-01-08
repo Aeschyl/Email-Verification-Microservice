@@ -1,4 +1,4 @@
-package com.example.demo.beans;
+package emailverification.beans;
 
 public class EmailVerificationResponse {
     private String email;

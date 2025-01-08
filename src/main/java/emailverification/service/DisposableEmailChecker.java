@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package emailverification.service;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -28,7 +28,7 @@ public class DisposableEmailChecker {
         }
         return domains;
     }
-    
+
     public boolean isDisposable(String domain) {
         if (domain == null || domain.isEmpty()) {
             return false;

@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package emailverification.service;
 
 import org.springframework.stereotype.Service;
 
