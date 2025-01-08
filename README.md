@@ -1,10 +1,42 @@
-# Java API Service Starter
+# Email Verification Microservice  
 
-This is a minimal Java API service starter based on [Google Cloud Run Quickstart](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-java-service).
+This is a straightforward microservice that returns three markers which can be used to determine whether an email is valid. Extremely useful for the sign up stage of any application.
 
-## Getting Started
 
-Server should run automatically when starting a workspace. To run manually, run:
+
+
+### Using the service
+The base URL for accessing the email verification service is:
+```sh
+http://localhost:8080/api/email/verify
+```
+
+Send a POST request to the server using cURL or Postman:
+curl -X POST http://localhost:8080/api/email/verify -H "Content-Type: application/json" -d "{\"email\": \"test@example.com\"}"
+
+
+
+
+## Understanding the response
+Returns a JSON formatted as such:
+```sh
+{
+    "email": "test@example.com",
+    "validDomain": true,
+    "disposable": false,
+    "validSyntax": true
+}
+```
+
+- validDomain checks hostname lookup and uses socket to establish a connection with the domain. Returns true if these two tests are a success.
+- disposable checks a comprehensive list of disposable email domain names to determine whether the domain is used for disposable email addresses.
+- validSyntax implements a basic regex check to ensure the email is formatted correctly.
+
+
+
+
+## Running locally
+To run the server on your local machine:
 ```sh
 mvn spring-boot:run
 ```
