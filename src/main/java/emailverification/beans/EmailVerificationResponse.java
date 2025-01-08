@@ -21,7 +21,7 @@ public class EmailVerificationResponse {
         return isValidSyntax;
     }
 
-    public void setisValidSyntax(boolean isValid) {
+    public void setIsValidSyntax(boolean isValid) {
         this.isValidSyntax = isValid;
     }
 
@@ -29,7 +29,7 @@ public class EmailVerificationResponse {
         return isValidDomain;
     }
 
-    public void setisValidDomain(boolean isReal) {
+    public void setIsValidDomain(boolean isReal) {
         this.isValidDomain = isReal;
     }
 

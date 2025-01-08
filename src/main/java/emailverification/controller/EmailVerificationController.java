@@ -30,11 +30,11 @@ public class EmailVerificationController {
         response.setEmail(email);
 
         if (emailVerifier.isValidSyntax(email)) {
-            response.setisValidSyntax(true);
+            response.setIsValidSyntax(true);
         }
 
         if (emailVerifier.isValidDomain(domain)) {
-            response.setisValidDomain(true);
+            response.setIsValidDomain(true);
         }
 
         if (disposableEmailChecker.isDisposable(domain)) {
