@@ -8,6 +8,12 @@ This is a straightforward microservice that returns three markers which can be u
 ### Using the service
 The base URL for accessing the email verification service is:
 ```sh
+https://email-verification-microservice.onrender.com/api/email/verify
+```
+
+OR
+
+```sh
 http://localhost:8080/api/email/verify
 ```
 
