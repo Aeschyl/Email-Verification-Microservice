@@ -7,6 +7,7 @@
   packages = [
     pkgs.zulu17
     pkgs.maven
+    pkgs.docker
   ];
   # Sets environment variables in the workspace
   env = {};
